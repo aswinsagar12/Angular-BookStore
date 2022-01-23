@@ -11,6 +11,7 @@ import { HomeComponent } from './home/components/home/home.component';
 import { HomeModule } from './home/home.module';
 
 
+
 const routes = [
   {path: '',component: HomeComponent},
   {path: 'login', component: LoginComponent},
@@ -20,7 +21,8 @@ const routes = [
 @NgModule({
   // Components in this module.
   declarations: [
-    AppComponent
+    AppComponent,
+
   ],
   // Imports modules it depends on
   imports: [
